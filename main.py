@@ -53,7 +53,7 @@ st.map(df)
 # 画像
 st.write('画像')
 from PIL import Image
-img = Image.open('sample.jpg')
+img = Image.open('sample.png')
 st.image(img, caption='Math', use_column_width=True)
 
 
